@@ -4,7 +4,7 @@ import './styles.scss'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import BraftEditor from 'braft-editor'
-import Table from '../src/table'
+import { Table } from '../src/index'
 import ColorPicker from '../src/color-picker'
 import Markdown from '../src/markdown'
 
@@ -47,12 +47,7 @@ class Demo extends React.Component {
       <div>
         <div className="demo-editor" id="demo">
           <BraftEditor
-            extendControls={[{
-              key: 'log-html',
-              type: 'button',
-              text: 'Log HTML',
-              onClick: this.logHTML
-            }]}
+            
             onChange={this.handleChange}
             value={editorState}
             contentStyle={{height: 700}}

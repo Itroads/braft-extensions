@@ -1,2 +1,7 @@
-export {Table}
-declare function Table(options: any): any;
+
+interface IOptions {
+  [key: string]: any;
+}
+declare function Table(options: IOptions): any;
+
+export = Table
