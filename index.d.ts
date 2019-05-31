@@ -1,2 +1,2 @@
-export = Table
+export {Table}
 declare function Table(options: any): any;
