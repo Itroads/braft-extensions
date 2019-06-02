@@ -1,1 +1,4 @@
-declare module "braft-extensions";
+declare module "braft-extensions" {
+  let Table: (option: any) => any;
+  export { Table }
+}

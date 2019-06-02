@@ -1,3 +1,3 @@
 // NOTHING
-import Table from './table/index'
-export { Table }
+import TableFn from './table/index'
+export const Table = TableFn
