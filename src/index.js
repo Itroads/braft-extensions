@@ -1,3 +1,3 @@
 // NOTHING
 import TableFn from './table/index'
-export const Table = TableFn
+export default TableFn
