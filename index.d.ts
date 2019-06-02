@@ -4,7 +4,7 @@
 //   }
 //   export function Table(option: IOption): any;
 // }
-  export interface IOption {
-    [key: string]: any;
-  }
-declare function ETable(option: IOption): any;
+//   export interface IOption {
+//     [key: string]: any;
+//   }
+// declare function ETable(option: IOption): any;
