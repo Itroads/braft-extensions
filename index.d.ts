@@ -1,6 +1,10 @@
-declare module "braft-extensions" {
+// declare module "braft-extensions" {
+//   export interface IOption {
+//     [key: string]: any;
+//   }
+//   export function Table(option: IOption): any;
+// }
   export interface IOption {
     [key: string]: any;
   }
-  export function Table(option: IOption): any;
-}
+export function Table(option: IOption): any;

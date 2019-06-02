@@ -4,7 +4,7 @@ import './styles.scss'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import BraftEditor from 'braft-editor'
-import { Table } from '../src/index'
+import {Table} from '../src/index'
 import ColorPicker from '../src/color-picker'
 import Markdown from '../src/markdown'
 
