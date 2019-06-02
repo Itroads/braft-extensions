@@ -1,4 +1,3 @@
 declare module "braft-extensions" {
-  let Table: (option: any) => any;
-  export = Table
+  export function Table(option: any): any;
 }
