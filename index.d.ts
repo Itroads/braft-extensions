@@ -7,4 +7,4 @@
   export interface IOption {
     [key: string]: any;
   }
-export function ETable(option: IOption): any;
+declare function ETable(option: IOption): any;
