@@ -1,7 +1,1 @@
-
-interface IOptions {
-  [key: string]: any;
-}
-declare function Table(options: IOptions): any;
-
-export = Table
+declare module "braft-extensions";
